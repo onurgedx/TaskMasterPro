@@ -41,9 +41,20 @@ endif()
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pc/source/QtProjects/TaskMasterPro/*.cpp")
 set(OLD_GLOB
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/Task.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.cpp"
   "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_edittaskwindow.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_suretodeletealltasks.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_suretoremovetaskwindow.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/mocs_compilation.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.cpp"
   "C:/Users/pc/source/QtProjects/TaskMasterPro/main.cpp"
   "C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.cpp"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -62,7 +73,18 @@ endif()
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pc/source/QtProjects/TaskMasterPro/*.h")
 set(OLD_GLOB
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/Task.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_edittaskwindow.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_mainwindow.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_suretodeletealltasks.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_suretoremovetaskwindow.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/moc_predefs.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.h"
   "C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.h"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -162,7 +184,10 @@ endif()
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pc/source/QtProjects/TaskMasterPro/*.ui")
 set(OLD_GLOB
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.ui"
   "C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.ui"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.ui"
+  "C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

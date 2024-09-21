@@ -1,3 +1,5 @@
+#include "TaskManager.h"
+#include "TaskStoreManager.h"
 #include "mainwindow.h"
 
 #include <QApplication>
@@ -7,7 +9,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
     for (const QString &locale : uiLanguages) {
@@ -17,7 +18,9 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    MainWindow w;
+    TaskManager taskManager;
+    TaskStoreManager taskStoreManager(&taskManager);
+    MainWindow w(nullptr,&taskManager);
     w.show();
     return a.exec();
 }
