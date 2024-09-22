@@ -2,7 +2,7 @@
 #define EDITTASKWINDOW_H
 
 #include <QDialog>
-#include "TaskManager.h"
+#include "../task_manager/TaskManager.h"
 namespace Ui {
 class editTaskWindow;
 }

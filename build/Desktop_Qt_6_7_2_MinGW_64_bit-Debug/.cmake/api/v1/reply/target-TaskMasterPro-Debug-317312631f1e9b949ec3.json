@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 27,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 80,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 62,
+				"line" : 94,
 				"parent" : 0
 			},
 			{
@@ -378,7 +378,8 @@
 				9,
 				12,
 				15,
-				17
+				17,
+				19
 			]
 		}
 	],
@@ -511,7 +512,8 @@
 				9,
 				12,
 				15,
-				17
+				17,
+				19
 			]
 		},
 		{
@@ -525,8 +527,10 @@
 				14,
 				16,
 				18,
-				19,
-				20
+				21,
+				22,
+				23,
+				24
 			]
 		},
 		{
@@ -537,14 +541,15 @@
 				5,
 				10,
 				13,
-				21
+				20,
+				25
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				22
+				26
 			]
 		}
 	],
@@ -586,68 +591,84 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "Task.h",
+			"path" : "src/task/Task.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "Task.cpp",
+			"path" : "src/task/Task.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "edittaskwindow.h",
+			"path" : "src/edit_task_src/edittaskwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "edittaskwindow.cpp",
+			"path" : "src/edit_task_src/edittaskwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "edittaskwindow.ui",
+			"path" : "src/edit_task_src/edittaskwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "suretoremovetaskwindow.h",
+			"path" : "src/sure2move_task_window/suretoremovetaskwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "suretoremovetaskwindow.cpp",
+			"path" : "src/sure2move_task_window/suretoremovetaskwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "suretoremovetaskwindow.ui",
+			"path" : "src/sure2move_task_window/suretoremovetaskwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "TaskStoreManager.h",
+			"path" : "src/task_manager/TaskManager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "TaskStoreManager.cpp",
+			"path" : "src/task_manager/TaskManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "TaskManager.h",
+			"path" : "src/task_store_manager/TaskStoreManager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "TaskManager.cpp",
+			"path" : "src/task_store_manager/TaskStoreManager.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/sure2delete_alltasks/suretodeletealltasks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/sure2delete_alltasks/suretodeletealltasks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/sure2delete_alltasks/suretodeletealltasks.ui",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
@@ -658,13 +679,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_edittaskwindow.h",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/ui_suretoremovetaskwindow.h",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h",
 			"sourceGroupIndex" : 1
 		},
 		{

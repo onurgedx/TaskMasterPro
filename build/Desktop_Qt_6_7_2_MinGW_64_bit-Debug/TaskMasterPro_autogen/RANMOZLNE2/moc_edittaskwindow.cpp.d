@@ -1,10 +1,9 @@
-C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.h \
+C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/RANMOZLNE2/moc_edittaskwindow.cpp: C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.h \
   C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q23utility.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qarraydata.h \
@@ -48,7 +47,6 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -75,7 +73,6 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/6.7.2/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qrefcount.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
@@ -146,28 +143,11 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
-  C:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -371,8 +351,5 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.h \
   C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.h \
   C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h

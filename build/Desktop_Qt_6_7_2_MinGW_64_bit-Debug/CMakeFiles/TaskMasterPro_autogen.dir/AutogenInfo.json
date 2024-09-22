@@ -338,45 +338,45 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/Task.h",
-			"MU",
-			"EWIEGA46WW/moc_Task.cpp",
-			null
-		],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.h",
-			"MU",
-			"EWIEGA46WW/moc_TaskManager.cpp",
-			null
-		],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.h",
-			"MU",
-			"EWIEGA46WW/moc_TaskStoreManager.cpp",
-			null
-		],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.h",
-			"MU",
-			"EWIEGA46WW/moc_edittaskwindow.cpp",
-			null
-		],
-		[
 			"C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.h",
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_suretodeletealltasks.cpp",
+			"RANMOZLNE2/moc_edittaskwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.h",
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.h",
 			"MU",
-			"EWIEGA46WW/moc_suretoremovetaskwindow.cpp",
+			"RQWVFCXEKI/moc_suretodeletealltasks.cpp",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.h",
+			"MU",
+			"LJ3EZLXNV2/moc_suretoremovetaskwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.h",
+			"MU",
+			"MFLM4537M2/moc_Task.cpp",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h",
+			"MU",
+			"6W4FJYPDUG/moc_TaskManager.cpp",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.h",
+			"MU",
+			"SFPSVKNREE/moc_TaskStoreManager.cpp",
 			null
 		]
 	],
@@ -453,22 +453,6 @@
 	"SETTINGS_FILE" : "C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/TaskMasterPro_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/pc/source/QtProjects/TaskMasterPro/Task.cpp", "MU", null ],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.cpp",
-			"MU",
-			null
-		],
 		[ "C:/Users/pc/source/QtProjects/TaskMasterPro/main.cpp", "MU", null ],
 		[
 			"C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.cpp",
@@ -476,12 +460,32 @@
 			null
 		],
 		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.cpp",
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.cpp",
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.cpp",
 			"MU",
 			null
 		]

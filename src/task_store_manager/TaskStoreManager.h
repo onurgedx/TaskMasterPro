@@ -1,8 +1,7 @@
 #ifndef TASKSTOREMANAGER_H
 #define TASKSTOREMANAGER_H
 
-
-#include "TaskManager.h"
+#include "../task_manager/TaskManager.h"
 #include <QCoreApplication>
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlQuery>

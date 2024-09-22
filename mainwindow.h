@@ -1,12 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "edittaskwindow.h"
-#include "suretodeletealltasks.h"
-#include "suretoremovetaskwindow.h"
+#include "src/task_manager/TaskManager.h"
+#include "src/edit_task_src/edittaskwindow.h"
+#include "src/sure2move_task_window/suretoremovetaskwindow.h"
+#include "src/task_manager/TaskManager.h"
+#include "src/sure2delete_alltasks/suretodeletealltasks.h"
+#include "src/sure2move_task_window/suretoremovetaskwindow.h"
 #include <QMainWindow>
 #include <qlistwidget.h>
-
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

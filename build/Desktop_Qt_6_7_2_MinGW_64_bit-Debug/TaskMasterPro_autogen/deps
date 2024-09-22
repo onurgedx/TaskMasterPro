@@ -605,28 +605,28 @@ TaskMasterPro_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/CMakeLists.txt \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/Task.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/Task.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/TaskManager.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/TaskStoreManager.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/moc_predefs.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/main.cpp \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.cpp \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.cpp \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.h \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/edittaskwindow.ui \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.ui \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretodeletealltasks.ui \
-	C:/Users/pc/source/QtProjects/TaskMasterPro/suretoremovetaskwindow.ui \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.ui \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.ui \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "edittaskwindow.h"
+#include "src/edit_task_src/edittaskwindow.h"
 
 MainWindow::MainWindow( QWidget *parent,TaskManager* const taskManagerPtr )
     :  QMainWindow(parent)

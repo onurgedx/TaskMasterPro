@@ -1,8 +1,8 @@
 #ifndef TASKMANAGER_H
 #define TASKMANAGER_H
 
-#include "Task.h"
-#include <unordered_map>
+#include <qdatetime.h>
+#include "../task/Task.h"
 
 #define SingleTaskList std::vector<SingleTask>
 #define TaskMap std::unordered_map<QString,SingleTaskList>

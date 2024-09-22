@@ -23,19 +23,50 @@ set(PROJECT_SOURCES
         ${TS_FILES}
 )
 
+set(EDIT_TASK_SOURCES
+    src/edit_task_src/edittaskwindow.h
+    src/edit_task_src/edittaskwindow.cpp
+    src/edit_task_src/edittaskwindow.ui
+)
+
+set(TASK_MODAL_SOURCES
+    src/task/Task.h
+    src/task/Task.cpp
+)
+
+set(SURE2MOVE_TASK_WINDOW_SOURCES
+    src/sure2move_task_window/suretoremovetaskwindow.h
+    src/sure2move_task_window/suretoremovetaskwindow.cpp
+    src/sure2move_task_window/suretoremovetaskwindow.ui
+)
+
+set(TASK_MANAGER_SOURCES
+        src/task_manager/TaskManager.h
+        src/task_manager/TaskManager.cpp
+)
+
+set(TASK_STORE_MANAGER_SOURCES
+    src/task_store_manager/TaskStoreManager.h
+    src/task_store_manager/TaskStoreManager.cpp
+)
+
+set(SURE2DELETE_ALL_TASKS_SOURCES
+    src/sure2delete_alltasks/suretodeletealltasks.h
+    src/sure2delete_alltasks/suretodeletealltasks.cpp
+    src/sure2delete_alltasks/suretodeletealltasks.ui
+)
+
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(TaskMasterPro
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        Task.h
-        Task.cpp
-        edittaskwindow.h edittaskwindow.cpp edittaskwindow.ui
-        suretoremovetaskwindow.h suretoremovetaskwindow.cpp suretoremovetaskwindow.ui
-        TaskStoreManager.h
-        TaskStoreManager.cpp
-        TaskManager.h
-        TaskManager.cpp
-        suretodeletealltasks.h suretodeletealltasks.cpp suretodeletealltasks.ui
+        ${TASK_MODAL_SOURCES}
+        ${EDIT_TASK_SOURCES}
+        ${SURE2MOVE_TASK_WINDOW_SOURCES}
+        ${TASK_MANAGER_SOURCES}
+        ${TASK_STORE_MANAGER_SOURCES}
+        ${SURE2DELETE_ALL_TASKS_SOURCES}
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TaskMasterPro APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
