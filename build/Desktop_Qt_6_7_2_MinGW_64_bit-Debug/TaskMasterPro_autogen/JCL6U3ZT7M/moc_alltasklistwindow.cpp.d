@@ -1,4 +1,4 @@
-C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.h \
+C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/JCL6U3ZT7M/moc_alltasklistwindow.cpp: C:/Users/pc/source/QtProjects/TaskMasterPro/src/all_task_list_window/alltasklistwindow.h \
   C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
@@ -150,8 +150,6 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidgetItem \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -161,7 +159,6 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
@@ -372,9 +369,5 @@ C:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.h \
   C:/Users/pc/source/QtProjects/TaskMasterPro/src/task/Task.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h \
-  C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.h
+  C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h

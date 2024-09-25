@@ -121,6 +121,14 @@ build CMakeFiles/TaskMasterPro.dir/src/sure2delete_alltasks/suretodeletealltasks
   OBJECT_DIR = CMakeFiles\TaskMasterPro.dir
   OBJECT_FILE_DIR = CMakeFiles\TaskMasterPro.dir\src\sure2delete_alltasks
 
+build CMakeFiles/TaskMasterPro.dir/src/whole_task_list_window/wholetasklistwindow.cpp.obj: CXX_COMPILER__TaskMasterPro_unscanned_Debug C$:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.cpp || cmake_object_order_depends_target_TaskMasterPro
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TaskMasterPro.dir\src\whole_task_list_window\wholetasklistwindow.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/pc/source/QtProjects/TaskMasterPro/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TaskMasterPro_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\TaskMasterPro.dir
+  OBJECT_FILE_DIR = CMakeFiles\TaskMasterPro.dir\src\whole_task_list_window
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TaskMasterPro
@@ -129,7 +137,7 @@ build CMakeFiles/TaskMasterPro.dir/src/sure2delete_alltasks/suretodeletealltasks
 #############################################
 # Link the executable TaskMasterPro.exe
 
-build TaskMasterPro.exe: CXX_EXECUTABLE_LINKER__TaskMasterPro_Debug CMakeFiles/TaskMasterPro.dir/TaskMasterPro_autogen/mocs_compilation.cpp.obj CMakeFiles/TaskMasterPro.dir/main.cpp.obj CMakeFiles/TaskMasterPro.dir/mainwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task/Task.cpp.obj CMakeFiles/TaskMasterPro.dir/src/edit_task_src/edittaskwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/sure2move_task_window/suretoremovetaskwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task_manager/TaskManager.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task_store_manager/TaskStoreManager.cpp.obj CMakeFiles/TaskMasterPro.dir/src/sure2delete_alltasks/suretodeletealltasks.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || TaskMasterPro_autogen TaskMasterPro_autogen_timestamp_deps
+build TaskMasterPro.exe: CXX_EXECUTABLE_LINKER__TaskMasterPro_Debug CMakeFiles/TaskMasterPro.dir/TaskMasterPro_autogen/mocs_compilation.cpp.obj CMakeFiles/TaskMasterPro.dir/main.cpp.obj CMakeFiles/TaskMasterPro.dir/mainwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task/Task.cpp.obj CMakeFiles/TaskMasterPro.dir/src/edit_task_src/edittaskwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/sure2move_task_window/suretoremovetaskwindow.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task_manager/TaskManager.cpp.obj CMakeFiles/TaskMasterPro.dir/src/task_store_manager/TaskStoreManager.cpp.obj CMakeFiles/TaskMasterPro.dir/src/sure2delete_alltasks/suretodeletealltasks.cpp.obj CMakeFiles/TaskMasterPro.dir/src/whole_task_list_window/wholetasklistwindow.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || TaskMasterPro_autogen TaskMasterPro_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -216,7 +224,7 @@ build TaskMasterPro_autogen_timestamp_deps: phony
 #############################################
 # Utility command for TaskMasterPro_autogen
 
-build TaskMasterPro_autogen: phony CMakeFiles/TaskMasterPro_autogen TaskMasterPro_autogen/include/ui_mainwindow.h TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h TaskMasterPro_autogen/timestamp TaskMasterPro_autogen/mocs_compilation.cpp TaskMasterPro_autogen_timestamp_deps
+build TaskMasterPro_autogen: phony CMakeFiles/TaskMasterPro_autogen TaskMasterPro_autogen/include/ui_mainwindow.h TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h TaskMasterPro_autogen/include/src/whole_task_list_window/ui_wholetasklistwindow.h TaskMasterPro_autogen/timestamp TaskMasterPro_autogen/mocs_compilation.cpp TaskMasterPro_autogen_timestamp_deps
 
 
 #############################################
@@ -233,7 +241,7 @@ build TaskMasterPro_autogen/timestamp TaskMasterPro_autogen/mocs_compilation.cpp
 #############################################
 # Phony custom command for CMakeFiles\TaskMasterPro_autogen
 
-build CMakeFiles/TaskMasterPro_autogen TaskMasterPro_autogen/include/ui_mainwindow.h TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h | ${cmake_ninja_workdir}CMakeFiles/TaskMasterPro_autogen ${cmake_ninja_workdir}TaskMasterPro_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h: phony TaskMasterPro_autogen/timestamp || TaskMasterPro_autogen_timestamp_deps
+build CMakeFiles/TaskMasterPro_autogen TaskMasterPro_autogen/include/ui_mainwindow.h TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h TaskMasterPro_autogen/include/src/whole_task_list_window/ui_wholetasklistwindow.h | ${cmake_ninja_workdir}CMakeFiles/TaskMasterPro_autogen ${cmake_ninja_workdir}TaskMasterPro_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/edit_task_src/ui_edittaskwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/sure2move_task_window/ui_suretoremovetaskwindow.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/sure2delete_alltasks/ui_suretodeletealltasks.h ${cmake_ninja_workdir}TaskMasterPro_autogen/include/src/whole_task_list_window/ui_wholetasklistwindow.h: phony TaskMasterPro_autogen/timestamp || TaskMasterPro_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

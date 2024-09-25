@@ -378,6 +378,12 @@
 			"MU",
 			"SFPSVKNREE/moc_TaskStoreManager.cpp",
 			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.h",
+			"MU",
+			"6Z5XPTOHOX/moc_wholetasklistwindow.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -486,6 +492,11 @@
 		],
 		[
 			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.cpp",
 			"MU",
 			null
 		]

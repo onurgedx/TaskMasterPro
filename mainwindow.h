@@ -7,6 +7,7 @@
 #include "src/task_manager/TaskManager.h"
 #include "src/sure2delete_alltasks/suretodeletealltasks.h"
 #include "src/sure2move_task_window/suretoremovetaskwindow.h"
+#include "src/whole_task_list_window/wholetasklistwindow.h"
 #include <QMainWindow>
 #include <qlistwidget.h>
 
@@ -25,27 +26,26 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_5_clicked();
-    void on_calendarWidget_selectionChanged();
-    void on_pushButton_3_clicked();
-    void on_listWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
-    void on_pushButton_9_clicked();
     void on_actionDelete_All_Tasks_triggered();
+    void on_actionShow_All_Tasks_triggered();
 
 private:
     Ui::MainWindow *ui;
     TaskManager* const _taskManagerPtr;
-    editTaskWindow* _taskWindow;
+    editTaskWindow* _taskEditWindow;
     SureToRemoveTaskWindow* _sureToRemoveTaskWindow;
     SureToDeleteAllTasks* _sureToDeleteAllTaskWindow;
+    WholeTaskListWindow* _wholeTaskListWindow;
     void updateTaskList();
     void disableTaskDetailFrame();
     void enableTaskDetailFrame();
     void completeTaskEdit();
-    void updateListWidget();
+    void updateTaskDetailFrame();
     void removeCurrentTask();
     void updateChooedDayText();
     void deleteAllTasks();
-
+    void addTask();
+    void chooseDay();
+    void chooseTask(QListWidgetItem *current, QListWidgetItem *previous);
 };
 #endif // MAINWINDOW_H

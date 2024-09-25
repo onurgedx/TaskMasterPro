@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-4732ba305eb8f1d5b726.json",
+					"jsonFile" : "directory-.-Debug-16ec19fe7500fd67e875.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TaskMasterPro::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TaskMasterPro-Debug-317312631f1e9b949ec3.json",
+					"jsonFile" : "target-TaskMasterPro-Debug-ce0e17b7396330b0dff9.json",
 					"name" : "TaskMasterPro",
 					"projectIndex" : 0
 				},

@@ -14,7 +14,7 @@ class editTaskWindow : public QDialog
 public:
     explicit editTaskWindow(TaskManager* taskManagerPtr, QWidget *parent = nullptr);
     ~editTaskWindow();
-    void Update();
+    void Open();
 
 public: signals:
     void on_Task_Edited();

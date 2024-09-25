@@ -149,6 +149,7 @@ TaskMasterPro_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidgetItem \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
@@ -625,8 +626,11 @@ TaskMasterPro_autogen/timestamp: \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_manager/TaskManager.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.cpp \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/task_store_manager/TaskStoreManager.h \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.cpp \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.h \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/mainwindow.ui \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/edit_task_src/edittaskwindow.ui \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2delete_alltasks/suretodeletealltasks.ui \
 	C:/Users/pc/source/QtProjects/TaskMasterPro/src/sure2move_task_window/suretoremovetaskwindow.ui \
+	C:/Users/pc/source/QtProjects/TaskMasterPro/src/whole_task_list_window/wholetasklistwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

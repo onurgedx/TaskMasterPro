@@ -56,6 +56,11 @@ set(SURE2DELETE_ALL_TASKS_SOURCES
     src/sure2delete_alltasks/suretodeletealltasks.ui
 )
 
+set(WHOLE_TASK_LIST_WINDOW
+    src/whole_task_list_window/wholetasklistwindow.h
+    src/whole_task_list_window/wholetasklistwindow.cpp
+    src/whole_task_list_window/wholetasklistwindow.ui
+)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(TaskMasterPro
@@ -67,6 +72,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${TASK_MANAGER_SOURCES}
         ${TASK_STORE_MANAGER_SOURCES}
         ${SURE2DELETE_ALL_TASKS_SOURCES}
+        ${WHOLE_TASK_LIST_WINDOW}
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TaskMasterPro APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

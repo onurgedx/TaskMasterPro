@@ -38,8 +38,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>280</y>
+      <x>520</x>
+      <y>300</y>
       <width>201</width>
       <height>21</height>
      </rect>
@@ -66,10 +66,10 @@
    <widget class="QCalendarWidget" name="calendarWidget">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>60</x>
       <y>20</y>
-      <width>311</width>
-      <height>201</height>
+      <width>431</width>
+      <height>291</height>
      </rect>
     </property>
     <property name="cursor">
@@ -77,6 +77,18 @@
     </property>
     <property name="locale">
      <locale language="English" country="UnitedStates"/>
+    </property>
+    <property name="gridVisible">
+     <bool>true</bool>
+    </property>
+    <property name="navigationBarVisible">
+     <bool>true</bool>
+    </property>
+    <property name="dateEditEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="dateEditAcceptDelay">
+     <number>1500</number>
     </property>
    </widget>
    <widget class="QFrame" name="frame">
@@ -688,7 +700,7 @@
       <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="editTaskButton">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -719,7 +731,7 @@
       <string>Task name</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_9">
+    <widget class="QPushButton" name="removeTaskButton">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -759,10 +771,10 @@
      </property>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="addTaskButton">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>540</x>
       <y>30</y>
       <width>201</width>
       <height>71</height>
@@ -778,10 +790,10 @@
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>40</y>
+      <x>760</x>
+      <y>120</y>
       <width>279</width>
-      <height>252</height>
+      <height>491</height>
      </rect>
     </property>
     <property name="cursor" stdset="0">
@@ -794,10 +806,10 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>40</y>
-      <width>221</width>
-      <height>181</height>
+      <x>760</x>
+      <y>20</y>
+      <width>281</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="sizeIncrement">
@@ -838,36 +850,30 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuFile">
-    <property name="title">
-     <string>File</string>
-    </property>
-   </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
      <string>Edit</string>
     </property>
     <addaction name="actionDelete_All_Tasks"/>
    </widget>
-   <widget class="QMenu" name="menuView">
+   <widget class="QMenu" name="menuOptions">
     <property name="title">
-     <string>View</string>
+     <string>Options</string>
     </property>
+    <addaction name="actionShow_All_Tasks"/>
    </widget>
-   <widget class="QMenu" name="menuHelp">
-    <property name="title">
-     <string>Help</string>
-    </property>
-   </widget>
-   <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
-   <addaction name="menuView"/>
-   <addaction name="menuHelp"/>
+   <addaction name="menuOptions"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionDelete_All_Tasks">
    <property name="text">
     <string>Delete All Tasks</string>
+   </property>
+  </action>
+  <action name="actionShow_All_Tasks">
+   <property name="text">
+    <string>Show All Tasks</string>
    </property>
   </action>
  </widget>

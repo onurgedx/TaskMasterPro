@@ -7,6 +7,7 @@ editTaskWindow::editTaskWindow(TaskManager* const taskManagerPtr , QWidget *pare
 {
     ui->setupUi(this);
     ui->inappropriate->hide();
+    this->setModal(true);
 }
 
 editTaskWindow::~editTaskWindow()
@@ -15,13 +16,14 @@ editTaskWindow::~editTaskWindow()
 }
 
 // Updates initial values of edit task inputs
-void editTaskWindow::Update()
+void editTaskWindow::Open()
 {
     const SingleTask& choosedTask = _taskManagerPtr->ChoosedTask();
     ui->lineEdit->setText(choosedTask.Name());
     ui->lineEdit_2->setText(choosedTask.Definition());
     ui->timeEdit->setTime(choosedTask.StartTime());
     ui->timeEdit_2->setTime(choosedTask.EndTime());
+    show();
 }
 
 //Updates choosed task

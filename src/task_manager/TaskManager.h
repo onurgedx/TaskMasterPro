@@ -22,7 +22,7 @@ public :
     TaskManager();
     ~TaskManager();
 
-    SingleTask& Get(const QString& day,int index)const ;
+    SingleTask& Get(const QString& day,int index) const;
 
     void Add(QString& day,SingleTask&& task );
     void Add();
@@ -33,10 +33,13 @@ public :
     void ChooseTask(const QString& name);
     void ChooseDay(const QString& day);
 
+    const std::pair<TaskMap::iterator, TaskMap::iterator> GetIters()const ;
 
+    const SingleTaskList& TasksAt(const QString& day)const;
     const SingleTaskList&  ChoosedDayTasks();
     const SingleTask& ChoosedTask() const;
     const QString& ChoosedDay() const;
+
 
 
 };

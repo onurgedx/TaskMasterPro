@@ -3,3 +3,4 @@
 #include "RANMOZLNE2/moc_edittaskwindow.cpp"
 #include "RQWVFCXEKI/moc_suretodeletealltasks.cpp"
 #include "LJ3EZLXNV2/moc_suretoremovetaskwindow.cpp"
+#include "6Z5XPTOHOX/moc_wholetasklistwindow.cpp"

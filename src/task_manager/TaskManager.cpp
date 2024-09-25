@@ -60,7 +60,6 @@ void TaskManager::Remove( )
 
 void TaskManager::RemoveAll()
 {
-
     for(auto iter1 = _taskMapPtr->begin();iter1!= _taskMapPtr->end();iter1++ )
     {
 
@@ -102,6 +101,12 @@ SingleTask& TaskManager::Get(const QString& day,int index) const
     return (*_taskMapPtr)[day][index];
 }
 
+
+const SingleTaskList& TaskManager::TasksAt(const QString& day) const
+{
+    return(* _taskMapPtr)[day];
+}
+
 const SingleTaskList&  TaskManager::ChoosedDayTasks()
 {
     return (*_taskMapPtr)[_choosedDay];
@@ -115,4 +120,10 @@ const SingleTask& TaskManager::ChoosedTask() const
 const QString& TaskManager::ChoosedDay() const
 {
     return _choosedDay;
+}
+
+const std::pair<TaskMap::iterator, TaskMap::iterator> TaskManager::GetIters() const
+{
+    return  std::pair(_taskMapPtr->begin(),_taskMapPtr->end());
+
 }
