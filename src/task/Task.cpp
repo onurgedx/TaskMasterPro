@@ -120,4 +120,5 @@ SingleTask& SingleTask::operator=(SingleTask&& rr) noexcept
     this->_name = std::move(rr._name);
     this->_definition = std::move(rr._definition);
     this->_isNew = std::move(rr._isNew);
+    return *this;
 }
