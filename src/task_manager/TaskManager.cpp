@@ -62,7 +62,6 @@ void TaskManager::RemoveAll()
 {
     for(auto iter1 = _taskMapPtr->begin();iter1!= _taskMapPtr->end();iter1++ )
     {
-
         for(auto iter2 = iter1->second.begin();iter2 != iter1->second.end();iter2++)
         {
             if(!_choosedTaskPtr->IsNew())

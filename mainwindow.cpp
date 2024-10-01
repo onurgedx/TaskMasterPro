@@ -110,6 +110,7 @@ void MainWindow::removeCurrentTask()
 void MainWindow::deleteAllTasks()
 {
     _taskManagerPtr->RemoveAll();
+    chooseDay();
 }
 
 void MainWindow::chooseDay()
