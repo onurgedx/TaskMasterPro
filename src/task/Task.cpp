@@ -1,6 +1,6 @@
 #include "Task.h"
-
-SingleTask::SingleTask(int taskIndex): _startTime(), _endTime(),_name(NEW_TASK_NAME),_definition("default definition"), _id(-1*taskIndex),_isNew(true),_isEdit(false)
+#include <qdatetime.h>
+SingleTask::SingleTask(int taskIndex): _startTime( QTime::currentTime() ), _endTime(QTime::currentTime()),_name(NEW_TASK_NAME),_definition("default definition"), _id(-1*taskIndex),_isNew(true),_isEdit(false)
 {
 
 }
