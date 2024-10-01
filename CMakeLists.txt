@@ -16,7 +16,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools Sql
 set(TS_FILES TaskMasterPro_en_001.ts)
 
 set(PROJECT_SOURCES
-        main.cpp
+        src/main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
@@ -73,7 +73,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${TASK_STORE_MANAGER_SOURCES}
         ${SURE2DELETE_ALL_TASKS_SOURCES}
         ${WHOLE_TASK_LIST_WINDOW}
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TaskMasterPro APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

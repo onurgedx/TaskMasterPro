@@ -1,6 +1,6 @@
-#include "src/task_manager/TaskManager.h"
-#include "src/task_store_manager/TaskStoreManager.h"
-#include "mainwindow.h"
+#include "task_manager/TaskManager.h"
+#include "task_store_manager/TaskStoreManager.h"
+#include "../mainwindow.h"
 
 #include <QApplication>
 #include <QLocale>

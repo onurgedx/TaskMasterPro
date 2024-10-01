@@ -32,10 +32,10 @@ private slots:
 private:
     Ui::MainWindow *ui;
     TaskManager* const _taskManagerPtr;
-    editTaskWindow* _taskEditWindow;
-    SureToRemoveTaskWindow* _sureToRemoveTaskWindow;
-    SureToDeleteAllTasks* _sureToDeleteAllTaskWindow;
-    WholeTaskListWindow* _wholeTaskListWindow;
+    editTaskWindow* const _taskEditWindow;
+    SureToRemoveTaskWindow* const _sureToRemoveTaskWindow;
+    SureToDeleteAllTasks* const _sureToDeleteAllTaskWindow;
+    WholeTaskListWindow* const _wholeTaskListWindow;
     void updateTaskList();
     void disableTaskDetailFrame();
     void enableTaskDetailFrame();
